@@ -10,6 +10,7 @@ TASK: do_all_regimes_EoS
 Description: Computes pressure and mass functions of a neutron star with an equation of state valid for all regimes.
 Returns: Plot of Figures 9 and 10 from "Irina Sagert et al 2006 Eur. J. Phys. 27 577"
 
-TASK: do_all_regimes_EoS_specific_p0 '\n'
+TASK: do_all_regimes_EoS_specific_p0
+
 Description: Computes pressure and mass functions of a neutron star with an equation of state valid for all regimesc with a specific dimensionless initial defined by the variable "P0". The default choice is 0.01.
 Returns: Plot of Figure 5 from "R. R. Silbar, S. Reddy American Journal of Physics 72, 892 (2004)"
